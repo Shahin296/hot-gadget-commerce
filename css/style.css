@@ -1,0 +1,103 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.section{
+    margin-bottom: 100px;
+}
+ .navbar-nav .nav-item{
+    margin-right: 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: grey;
+}
+
+.buy-now-button{
+    border: none;
+    background-image: linear-gradient(to bottom, rgb(70, 68, 68), #000);
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.carousel-item{
+  padding-bottom: 80px;
+  background-image: url("../images/bg-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+}
+
+.home{
+    background-image: url("../images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 130px;
+}
+
+
+
+
+/* smartphone */
+
+.section-head{
+    padding-bottom: 20px;
+}
+
+
+.see-all-product{
+    color: rgb(231, 157, 45);
+    text-decoration: none;
+}
+
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    padding: 40px 10px;
+    
+}
+
+.card-img-top{
+    margin: 0 auto;
+}
+
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+
+.horizental-line{
+    width: 110px;
+    margin: 0 auto;
+    border-top: 3px solid red;
+    border-radius: 10px;
+   
+}
+
+.category{
+    margin-bottom: 60px;
+}
+
+.category-card{
+    height: 190px;
+    width:200px;
+    box-shadow: 5px 5px 20px lightgrey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.category-card h5{
+    margin-top: 12px;
+}
+
+footer{
+    color: gray;
+    font-size: 13px;
+}
